@@ -13,9 +13,10 @@ int main(void)
 
 void print_alphabet(void)
 {
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
-		_putchar(c);
-	_putchar('\n');
+    for(int i='A';i<'z';i++)
+    {
+        i = tolower(i);
+        putchar(i);
+        putchar('\n');
+    }
 }
