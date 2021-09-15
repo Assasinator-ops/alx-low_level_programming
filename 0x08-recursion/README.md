@@ -1,2 +1,2 @@
-# 0x07. C - Recursion
+# 0x08. C - recursion
 Recursion using c
