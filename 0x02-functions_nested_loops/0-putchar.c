@@ -4,7 +4,8 @@
  */
 void print_alphabet(void)
 {
-    for(int i='A';i<'z';i++)
+    int i;
+    for(i='A';i<'z';i++)
     {
         i = tolower(i);
         _putchar(i);
